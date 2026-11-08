@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Translate Conversation</title>
+  <meta name="description" content="Live conversation translation for iPhone and Apple Watch." />
+  <link rel="canonical" href="https://disin8.github.io/translate-conversation/" />
+  <link rel="icon" type="image/png" href="./assets/images/app-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Sora:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/site.css" />
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"><span class="a"></span><span class="b"></span><span class="c"></span></div>
+  <div class="shell">
+    <header class="nav">
+      <a class="brand" href="./">
+        <img src="./assets/images/app-icon.png" alt="" />
+        <span>Translate</span>
+      </a>
+      <div class="nav-links">
+        <a href="./privacy/">Privacy</a>
+        <a href="./terms/">Terms</a>
+        <button type="button" class="lang-btn" id="lang-toggle" aria-label="Toggle language">EN</button>
+      </div>
+    </header>
+
+    <main class="home">
+      <div class="home-panel">
+        <img src="./assets/images/app-icon.png" alt="Translate Conversation" />
+        <div data-lang="en" class="block">
+          <h1>Translate Conversation</h1>
+          <p>Live translation for face-to-face talks on iPhone and Apple Watch. Private by design.</p>
+        </div>
+        <div data-lang="ru" class="block">
+          <h1>Translate Conversation</h1>
+          <p>Живой перевод разговора на iPhone и Apple Watch. С акцентом на приватность.</p>
+        </div>
+        <div class="cta-row">
+          <a class="cta primary" href="./privacy/">
+            <span data-lang="en">Privacy Policy</span>
+            <span data-lang="ru">Конфиденциальность</span>
+          </a>
+          <a class="cta ghost" href="./terms/">
+            <span data-lang="en">Terms of Use</span>
+            <span data-lang="ru">Условия использования</span>
+          </a>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="./assets/js/site.js"></script>
+</body>
+</html>
